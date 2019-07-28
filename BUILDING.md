@@ -249,9 +249,9 @@ $ make install
 
 make install が無事に終われば $(BUILD_DIR)/stage 以下に生成されたファイルがインストールされる．
 
----
+~~~
 $ $(BUILD_DIR)/stage/bin/ym_python $(SRC_DIR}/py-src/sample.py
----
+~~~
 
 でサンプルプログラムが実行される．$(BUILD_DIR)と$(SRC_DIR)は適宜実際の
 ディレクトリ名に置き換えること．
